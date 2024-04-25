@@ -21,7 +21,7 @@ This Chrome extension enhances the YouTube playback speed options, allowing you 
 
 ### 3. With Custom Playback Speed Option
 
-![With Custom Playback Speed Option](screenshots/4.png)
+![With Custom Playback Speed Option](screenshots/3.png)
 
 ## How to Use/Installation
 

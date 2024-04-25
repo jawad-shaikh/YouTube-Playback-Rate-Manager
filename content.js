@@ -5,17 +5,18 @@ function addPlaybackSpeedInput() {
     speedInput.setAttribute("type", "text");
     speedInput.setAttribute("placeholder", "Playback speed (e.g., 1.5)");
     speedInput.style.width = "200px";
-    speedInput.style.padding = "10px";
+    speedInput.style.padding = "8px";
     speedInput.style.marginTop = "10px";
-    speedInput.style.fontSize = "16px";
+    speedInput.style.fontSize = "12px";
     speedInput.style.borderRadius = "5px";
     speedInput.style.border = "2px solid #cccccc";
     speedInput.style.boxShadow = "0 2px 5px rgba(0,0,0,0.2)";
+    speedInput.style.marginBottom = "10px";
 
     var setSpeedButton = document.createElement("button");
     setSpeedButton.textContent = "Set Speed";
-    setSpeedButton.style.padding = "10px 20px";
-    setSpeedButton.style.fontSize = "16px";
+    setSpeedButton.style.padding = "8px 20px";
+    setSpeedButton.style.fontSize = "12px";
     setSpeedButton.style.borderRadius = "5px";
     setSpeedButton.style.border = "none";
     setSpeedButton.style.marginLeft = "10px";
@@ -23,6 +24,7 @@ function addPlaybackSpeedInput() {
     setSpeedButton.style.backgroundColor = "#FF0000";
     setSpeedButton.style.color = "white";
     setSpeedButton.style.boxShadow = "0 2px 5px rgba(0,0,0,0.2)";
+    setSpeedButton.style.marginBottom = "10px";
 
     aboveTheFold.prepend(setSpeedButton);
     aboveTheFold.prepend(speedInput);
